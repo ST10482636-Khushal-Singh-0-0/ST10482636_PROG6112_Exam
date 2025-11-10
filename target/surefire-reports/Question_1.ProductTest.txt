@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: Question_1.ProductTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.149 s <<< FAILURE! -- in Question_1.ProductTest
+Question_1.ProductTest.testAverageSales -- Time elapsed: 0.055 s <<< ERROR!
+java.lang.NullPointerException: Cannot read the array length because "<local3>" is null
+	at Question_1.Product.TotalSales(Product.java:58)
+	at Question_1.Product.AverageSales(Product.java:72)
+	at Question_1.ProductTest.testAverageSales(ProductTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+Question_1.ProductTest.testTotalSales -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot read the array length because "<local3>" is null
+	at Question_1.Product.TotalSales(Product.java:58)
+	at Question_1.ProductTest.testTotalSales(ProductTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

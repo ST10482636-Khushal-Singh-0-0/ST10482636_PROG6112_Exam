@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: Question_2.Products_SalesTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.020 s <<< FAILURE! -- in Question_2.Products_SalesTest
+Question_2.Products_SalesTest.testGetSalesUnderLimit -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Question_2.Products_Sales.GetSalesUnderLimit()" because "instance" is null
+	at Question_2.Products_SalesTest.testGetSalesUnderLimit(Products_SalesTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+Question_2.Products_SalesTest.testGetSalesOverLimit -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Question_2.Products_Sales.GetSalesOverLimit()" because "instance" is null
+	at Question_2.Products_SalesTest.testGetSalesOverLimit(Products_SalesTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
